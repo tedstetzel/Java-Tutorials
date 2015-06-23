@@ -1,3 +1,5 @@
+//incompete sicne the directions are poorly defied by the author. w
+
 import java.util.Scanner;
 
 public class WeekdayCalculator
@@ -5,7 +7,10 @@ public class WeekdayCalculator
 	public static void main( String[] args )
 	{
 		Scanner keyboard = new Scanner(System.in);
-
+		int yy;
+		int total;
+		
+		
 		System.out.println("Welcome to Mr. Mitchell's fantastic birth-o-meter!");
 		System.out.println();
 		System.out.println("All you have to do is enter your birth date, and it will");
@@ -25,7 +30,9 @@ public class WeekdayCalculator
 		int mm = keyboard.nextInt();
 		int dd = keyboard.nextInt();
 		int yyyy = keyboard.nextInt();
-
+		
+		yy = yyyy - 1900;
+		total = (yy / 4) + yy + mm;
 		// put a function call for weekday() here
 		System.out.println("You were born on ");
 	}
