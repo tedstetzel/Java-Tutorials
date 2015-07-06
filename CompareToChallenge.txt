@@ -1,9 +1,0 @@
-public class CompareToChallenge
-{
-	public static void main(String[] args)
-	{
-	
-	System.out.print("Comparing \"lamps\" with \"carpets\" produces ");
-	System.out.println("lamps".compareTo("carpets") );
-	}
-}
