@@ -1,5 +1,0 @@
-Grade 1: 89
-Grade 2: 5
-Grade 3: 67
-Grade 4: 51
-Grade 5: 9

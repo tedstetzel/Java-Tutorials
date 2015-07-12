@@ -1,8 +1,0 @@
-import Java.util.Scanner;
-
-public class BMICategories
-{
-	public static void main(String[] args)
-	{
-		Scanner keyboard = new Scanner(System.in);
-		float height, weight;
